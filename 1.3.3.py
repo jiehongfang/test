@@ -18,5 +18,5 @@ df['Team'] = df['Team'].str.lower()
 # 计算每个队伍的平均分（保留两位小数）
 average_scores = df.groupby('Team')['Points'].mean().round(2)
 
-# 打印结果看
+# 打印结果看hhh
 print(average_scores)
